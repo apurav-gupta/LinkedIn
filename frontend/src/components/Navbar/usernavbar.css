@@ -1,0 +1,136 @@
+.ts-global-nav {
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.global-nav, .ts-global-nav {
+  color: #fff;
+  background: #006097;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.header-job {
+    padding: 0 12px;
+}
+.wrapper-job {
+  display: flex;
+  justify-content: center;
+  margin: 0 250px;
+}
+
+.header-job h1 {
+  display: flex;
+  -webkit-box-align: center;
+  width: 1116px;
+  align-items: center;
+  margin: 0 auto;
+}
+.centered-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: none;
+	}
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.ts-global-nav__product-dropdowns {
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  display: flex;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+nav ul {
+  list-style: none;
+  /* text-align: center; */
+}
+.centerList{
+  text-align: center;
+}
+
+.ts-nav-dropdown, .ts-nav-dropdown__trigger {
+  height: 100%;
+}
+.ts-nav-dropdown__header.ts-nav-dropdown__header {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ts-nav-dropdown__header {
+  font-size: 1.4rem;
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgba(0,0,0,.9);
+  height: 100%;
+  text-transform: uppercase;
+}
+.ts-nav-dropdown__primary-link:active, .ts-nav-dropdown__primary-link:hover, .ts-nav-dropdown__primary-link:link, .ts-nav-dropdown__primary-link:visited, .ts-nav-dropdown__primary-link:visited:active, .ts-nav-dropdown__primary-link:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.ts-nav-dropdown__primary-link {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 16px;
+}
+.ts-global-nav__account-chrome {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-dropdown__content.nav-dropdown__content {
+  margin-top: 0;
+  max-width: 360px;
+  min-width: 260px;
+}
+.nav-dropdown__content {
+  padding: 0;
+}
+.ts-nav-dropdown__header.ts-nav-dropdown__header {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ts-nav-dropdown__header--icon {
+  height: 48px;
+  padding: 0 16px;
+  color: #fff;
+}
+.lazy-image.loaded {
+  opacity: 1;
+}
+.ts-nav-user-menu__profile-photo {
+  border: 3px solid transparent;
+  border-radius: 49.9%;
+}
+.nav-dropdown__content.nav-dropdown__content {
+  margin-top: 0;
+  max-width: 360px;
+  min-width: 260px;
+}
+.dropdown__content--right {
+  right: 0;
+}
+.ts-nav-user-menu__contract-info{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
